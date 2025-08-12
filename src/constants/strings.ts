@@ -1,7 +1,7 @@
 class Strings {
-  static whatsapp = "WhatsApp";
-  static whatsappLink = "https://wa.me/919369680068?text=Interested%20in%20your%20services";
-  static whatsappNumber = "+91 9369680068";
+  // static whatsapp = "WhatsApp";
+  // static whatsappLink = "https://wa.me/919369680068?text=Interested%20in%20your%20services";
+  // static whatsappNumber = "+91 9369680068";
 
   static github = "GitHub";
   static githubLink = "https://www.github.com/anand-http";
@@ -11,9 +11,9 @@ class Strings {
   static linkedInLink = "https://www.linkedin.com/in/anand-pratap-singh-483b46334/";
   static linkedInUsername = "Anand Pratap Singh";
 
-  static instagram = "Instagram";
-  static instagramLink = "https://www.instagram.com/anandxhttp";
-  static instagramUsername = "anandxhttp";
+  // static instagram = "Instagram";
+  // static instagramLink = "https://www.instagram.com/anandxhttp";
+  // static instagramUsername = "anandxhttp";
 
   static twitter = "Twitter";
   static twitterLink = "https://www.twitter.com/anandxhttp";

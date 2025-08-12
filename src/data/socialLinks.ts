@@ -23,18 +23,18 @@ const socialLinks: ISocialLinkItem[] = [
     icon: faLinkedin,
     text: Strings.linkedInUsername,
   },
-  {
-    name: Strings.whatsapp,
-    url: Strings.whatsappLink,
-    icon: faWhatsapp,
-    text: Strings.whatsappNumber,
-  },
-  {
-    name: Strings.instagram,
-    url: Strings.instagramLink,
-    icon: faInstagram,
-    text: Strings.instagramUsername,
-  },
+  // {
+  //   name: Strings.whatsapp,
+  //   url: Strings.whatsappLink,
+  //   icon: faWhatsapp,
+  //   text: Strings.whatsappNumber,
+  // },
+  // {
+  //   name: Strings.instagram,
+  //   url: Strings.instagramLink,
+  //   icon: faInstagram,
+  //   text: Strings.instagramUsername,
+  // },
   {
     name: Strings.twitter,
     url: Strings.twitterLink,
@@ -42,23 +42,23 @@ const socialLinks: ISocialLinkItem[] = [
     text: Strings.twitterUsername,
   },
   {
-    name: Strings.email,
-    url: Strings.primaryEmailLink,
-    icon: faEnvelope,
-    text: Strings.primaryEmail,
-  },
-  
-  {
     name: Strings.telegram,
     url: Strings.telegramLink,
     icon: faTelegramPlane,
     text: Strings.telegramUsername,
   },
+ 
   {
     name: Strings.buyMeACoffee,
     url: Strings.buyMeACoffeeLink,
     icon: "/images/buy-me-a-coffee.png",
     text: Strings.buyMeACoffeeUsername,
+  },
+   {
+    name: Strings.email,
+    url: Strings.primaryEmailLink,
+    icon: faEnvelope,
+    text: Strings.primaryEmail,
   },
 
 ];

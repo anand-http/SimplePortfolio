@@ -8,10 +8,9 @@ import { FlipWords } from "@/components/common/FlipWords";
 import socialLinks from "@/data/socialLinks";
 import TalkButton from "./ui/TalkButton";
 import ResumeButton from "./ui/ResumeButton";
-import { words } from "lodash";
 
 const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
-  const myWords = [" Anand 👩‍💻"];
+  const myWords = [" Anand 🧑‍💻", " Web Developer 🕸️", " App Developer 🦧"];
   return (
     <ResponsiveBox
       classNames="dark:bg-[var(--bgColor)] bg-[var(--bgColor)] dark:bg-grid-white/[0.1] bg-grid-white/[0.1] min-h-screen items-center justify-center relative overflow-hidden rounded-md"
@@ -46,7 +45,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
           <p className="text-base/6 font-medium">Follow me here</p>
 
           <Row classNames="mt-2 gap-2">
-            {socialLinks.slice(0, 5).map((link, index) => {
+            {socialLinks.slice(0, 4).map((link, index) => {
               return (
                 <Link
                   key={`social-link-${index}`}
