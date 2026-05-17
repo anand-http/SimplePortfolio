@@ -2,7 +2,7 @@ import { IExperienceItem } from "@/types";
 
 const experiences: IExperienceItem[] = [
   {
-    designation: "Software Development Engineer",
+    designation: "Application Engineer",
     company: "Sriggle Tech Pvt Ltd",
     startDate: "May 2025",
     isCurrentJob: true,
@@ -17,7 +17,7 @@ const experiences: IExperienceItem[] = [
 
 
   {
-    designation: "Full Stack Development Intern",
+    designation: "Full Stack Developer",
     company: "Quantum IT Innovation",
     startDate: "Dec 2024",
     endDate: "May 2025",

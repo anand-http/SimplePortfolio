@@ -14,6 +14,18 @@ const projects: IProjectItem[] = [
     tags: ["React.js", "Express.js", "MongoDB", "Node.js", "Cloudinary", "Redux"],
   },
   {
+    id: "crownLedger",
+    title: "CrownLedger - Fintech",
+    description:
+      "CrownLedger is a Full-stack fintech application built using the .NET stack. It provides users with a seamless experience for managing their financial transactions and tracking their portfolio performance.",
+    icon: "/skills/dotnet.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/anand-http/CrownLedger",
+    url: "http://crownledger.somee.com",
+    tags: ["C#", "Asp.Net", "Bootstrap", "Jquery", "Javascript", "SQL Server","HTML5","CSS3"],
+  },
+  {
     id: "oyo-clone",
     title: "OYO Clone With Payment Gateway",
     description:
@@ -24,6 +36,18 @@ const projects: IProjectItem[] = [
     githubUrl: "https://github.com/anand-http/OyoClone",
     url: "https://oyo-clone-chi.vercel.app/",
     tags: ["Next.js", "Redux", "Tailwind CSS", "MongoDB", "Node.js", "Express.js"],
+  },
+   {
+    id: "resume-management",
+    title: "Resume Management System",
+    description:
+      "A comprehensive resume management system built with modern web technologies. It allows users to create, edit, and manage their resumes with a clean, user-friendly interface.",
+    icon: "/skills/dotnet.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/anand-http/resume-management",
+    url: "https://github.com/anand-http/resume-management",
+    tags: ["C#", "Asp.Net Core", "Reactjs", "Saas", "Typescript", "SQL Server","Entity Framework Core"],
   },
   {
     id: "todo-mobile-app",

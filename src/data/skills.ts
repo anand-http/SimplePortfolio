@@ -69,6 +69,11 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/socket-io.png",
       },
+      {
+        title: ".NET Core",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/dotnet.svg",
+      },
     
     ],
   },

@@ -35,12 +35,12 @@ const socialLinks: ISocialLinkItem[] = [
   //   icon: faInstagram,
   //   text: Strings.instagramUsername,
   // },
-  {
-    name: Strings.twitter,
-    url: Strings.twitterLink,
-    icon: faXTwitter,
-    text: Strings.twitterUsername,
-  },
+  // {
+  //   name: Strings.twitter,
+  //   url: Strings.twitterLink,
+  //   icon: faXTwitter,
+  //   text: Strings.twitterUsername,
+  // },
   {
     name: Strings.telegram,
     url: Strings.telegramLink,
@@ -48,12 +48,12 @@ const socialLinks: ISocialLinkItem[] = [
     text: Strings.telegramUsername,
   },
  
-  {
-    name: Strings.buyMeACoffee,
-    url: Strings.buyMeACoffeeLink,
-    icon: "/images/buy-me-a-coffee.png",
-    text: Strings.buyMeACoffeeUsername,
-  },
+  // {
+  //   name: Strings.buyMeACoffee,
+  //   url: Strings.buyMeACoffeeLink,
+  //   icon: "/images/buy-me-a-coffee.png",
+  //   text: Strings.buyMeACoffeeUsername,
+  // },
    {
     name: Strings.email,
     url: Strings.primaryEmailLink,

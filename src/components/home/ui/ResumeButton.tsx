@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-const ResumeButton = () => {
+const ResumeButton = ({ url, text }: { url: string; text: string }) => {
   return (
     <Link
       className="app__outlined_btn min-w-[10rem]"
-      href={"https://drive.google.com/file/d/1w8gpzpGrfp1ws-jV1wJWBvgv1jz7rBwJ/view?usp=sharing"}
+      href={url}
       target="_blank"
     >
-      View Resume
+      {text}
     </Link>
   );
 };

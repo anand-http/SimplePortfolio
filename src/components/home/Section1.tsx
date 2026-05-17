@@ -28,12 +28,13 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
             />
           </div>
           <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-           A Full Stack Developer 💻 &&  Freelancer 🛠️
+           A Full Stack Developer 💻
           </p>
 
 
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
-            <ResumeButton />
+            <ResumeButton url="https://drive.google.com/file/d/19OueMSIoMtcFC667WrPfSX7vLQQhdv5U/view?usp=drive_link" text="View MERN Resume" />
+            <ResumeButton url="https://drive.google.com/file/d/15Lg9VVUZfq47JrI-xoUoVf8NUmMZCU9f/view?usp=drive_link" text="View .NET Resume" />
           </div>
 
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
@@ -45,7 +46,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
           <p className="text-base/6 font-medium">Follow me here</p>
 
           <Row classNames="mt-2 gap-2">
-            {socialLinks.slice(0, 4).map((link, index) => {
+            {socialLinks.slice(0, 3).map((link, index) => {
               return (
                 <Link
                   key={`social-link-${index}`}

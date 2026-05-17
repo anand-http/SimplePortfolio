@@ -15,17 +15,17 @@ class Strings {
   // static instagramLink = "https://www.instagram.com/anandxhttp";
   // static instagramUsername = "anandxhttp";
 
-  static twitter = "Twitter";
-  static twitterLink = "https://www.twitter.com/anandxhttp";
-  static twitterUsername = "anandxhttp";
+  // static twitter = "Twitter";
+  // static twitterLink = "https://www.twitter.com/anandxhttp";
+  // static twitterUsername = "anandxhttp";
 
   static email = "Email";
   static primaryEmailLink = "mailto:anandxhttp@gmail.com";
   static primaryEmail = "anandxhttp@gmail.com";
 
   static telegram = "Telegram";
-  static telegramLink = "https://t.me/anand_http";
-  static telegramUsername = "anand_http";
+  static telegramLink = "https://t.me/x0singh08";
+  static telegramUsername = "x0singh08";
 
   static buyMeACoffee = "BuyMeACoffee";
   static buyMeACoffeeLink = "https://buymeacoffee.com/anand.http";
